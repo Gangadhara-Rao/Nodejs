@@ -1,0 +1,55 @@
+ 
+Buffers:
+ 
+    -> Temporary storage spot for a chunk of data that is being transferred from one place to another.
+ 
+    -> The buffer is filled with data, then passed along.
+ 
+    -> Transfer small chunks of data at a time.
+ 
+                              BUFFER
+    Data Passed On <--------- |||||| <--|-- DATA.
+ 
+-> Buffer is nothing but it diviedes the collection data into small chunks.
+ 
+Stream: It is a flow of data.
+ 
+        -> In node js, the data will flow like chunks and those chunks will store in buffer and finally that buffer will share the data.
+ 
+        -> Can create strean in node js to transfer data.
+ 
+        -> It will increase the performance.
+ 
+-> Streams are 3 types:
+ 
+    - Writable streams: allow node js to write data to a stream.
+ 
+    - Readable streams: allow node js to read data from a stream.
+ 
+    - Duplex: can read and write to a stream.
+ 
+-> Pipes: The data is coverted into small chunks and sends into buffer. After that pipes are useful to write the stream automatically.
+ 
+-> Pipes can move from read to write. But, not vice versa.
+ 
+------------> 24-June-22
+ 
+-> Express => It is also a package and it is used for routing and templating.
+ 
+-> It helps in routing with the help of http methods.
+ 
+    -> GET: app.get('route', fn)
+ 
+    -> POST: app.post('route', fn)
+ 
+    -> DELETE: app.delete('route', fn)
+ 
+    -> PUT:
+ 
+Template Engines: Its is used to create an HTML template with minimal code.
+ 
+-> Ex: EJS => Embedded JavaScript template engine.
+ 
+-> It is a light weight engine.
+ 
+npm install ejs -save
